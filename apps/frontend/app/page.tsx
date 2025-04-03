@@ -216,7 +216,7 @@ function PricingCard({ title, price, features, highlighted = false }: any) {
         </span>
       </div>
       <ul className="space-y-3 mb-8">
-        {features.map((feature, index) => (
+        {features.map((feature: string, index: number) => (
           <li key={index} className="flex items-center space-x-2">
             <Check className="w-5 h-5" />
             <span>{feature}</span>
