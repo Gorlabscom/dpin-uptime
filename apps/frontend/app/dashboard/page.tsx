@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from "react";
 import { ChevronDown, ChevronUp, Globe, Moon, Sun, Plus } from "lucide-react";
 import { useWebsites } from "@/hooks/useWebsites";
-import { format, parseISO, subMinutes } from "date-fns";
+import { parseISO, subMinutes } from "date-fns";
 import axios from "axios";
 import { API_BACKEND_URL } from "@/config";
 import { useAuth } from "@clerk/nextjs";
